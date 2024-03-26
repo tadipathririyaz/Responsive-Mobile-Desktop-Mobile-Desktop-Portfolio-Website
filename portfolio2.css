@@ -1,0 +1,105 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.div2{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.gmap{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center 
+    
+    
+}
+.list{
+    font-size: 12px !important;
+}
+.details1{
+    width: 100% !important;;
+}
+.bg-warning{
+    width: 100% !important;
+}
+.social-icons a:hover i {
+
+    transform: scale(1.5);
+    color: red;
+
+}
+.social-icons a i{
+    transition: all 0.2s linear ;
+    display:inline-block;
+}
+
+.col-containers{
+    min-width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:;
+    justify-content: space-around;
+}
+body{
+    position: relative;
+}
+.nav{
+    display: none !important;
+}
+.left-col{
+    position:sticky;
+    top:-80px;
+    z-index: 99;
+    
+}
+.pic{
+    height: 250px !important;
+    width: 300px !important;
+
+}
+.details1{
+    padding: 20px;
+}
+footer{
+    display: none;
+}
+.heading {
+    display: none;
+}
+.menub {
+    padding-left:0 ;
+   font-size: 30px;
+   position: sticky;
+   top:60px;
+   left:6px;
+   
+   
+}
+.addressb{
+    width: 75% !important;
+    
+   
+}
+.social-icons a i{
+    transition: all 0.2s linear ;
+    display:inline-block;
+   
+}
+.social-icons a:hover i{
+    transform: scale(1.5);
+    
+}
+section footer{
+    display: block;
+    padding: 7px;
+    margin-top: 20px;
+}
+.menua a i{
+    color:white;
+
+}

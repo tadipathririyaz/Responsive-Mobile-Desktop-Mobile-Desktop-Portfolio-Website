@@ -1,0 +1,123 @@
+body{
+    box-sizing: border-box;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: black;
+    overflow-x: hidden;
+
+}
+
+.pic
+{
+    height: 360px !important;
+    width: 300px !important;
+}
+
+.col-containers{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.main-content{
+    height: 100vh;
+}
+.left-col{
+    width: 30%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    position: fixed;
+    /* text-align: center; */
+    overflow: hidden; 
+   
+}
+.right-col{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 70%;
+    
+    
+    
+}
+
+.heading{
+    
+}
+.circle{
+    border-radius: 100px !important;
+}
+.heading{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20%;
+    background-image: url(profil2.jpeg);
+    background-position: fixed;
+    background-size: cover;
+    max-width: 100%;
+    
+    /* background-image: url(WhatsApp\ Image\ 2024-03-13\ at\ 9.59.24\ AM.jpeg); */
+   
+     
+   
+}
+.heading .title{
+    color:black;
+    align-items: center;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.social-icons a:hover i {
+
+    transform: scale(1.5);
+    color: red;
+
+}
+.social-icons a i{
+    transition: all 0.2s linear ;
+    display:inline-block;
+}
+nav ul li a.active i{
+    color: red;
+}
+nav ul li a i{
+    transition: all 0.2s linear;
+}
+nav ul li a:hover i{
+    transform: scale(1.5);
+    color: red;
+}
+.title{
+    margin-top: -14%;
+    margin-left: 6%;
+    color: white;
+}
+.details ul li i{
+    color: red;
+}
+.details-e{
+    font-weight: normal;
+}
+.section1{
+    /* background-color: rgb(129, 14, 14); */
+    text-align: justify;
+    text-justify: auto;
+}
+.div2{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.menub{
+    display: none;
+}
+section footer{
+    display: none;
+   
+}
+   
